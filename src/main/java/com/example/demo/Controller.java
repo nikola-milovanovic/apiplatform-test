@@ -12,7 +12,7 @@ import org.springframework.web.bind.annotation.RestController;
 @RestController
 public class Controller {
 
-  @PostMapping("/accept-body")
+  @PostMapping("/acceptbody")
   public ResponseEntity<String> acceptBody(@RequestHeader HttpHeaders headers, @RequestBody String body) {
     // Log all headers
     System.out.println("Headers:");
